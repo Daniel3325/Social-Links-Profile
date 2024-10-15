@@ -1,40 +1,33 @@
 body{
     background-color: black;
-    width: 100%;
-    height: 100vh;
+    width: 99%;
+    height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin: 0;
 }
 
 header .box{
-    background-color: hsl(0, 0%, 8%);
+    background-color: hsl(0, 0%, 12%);
     width: 384px;
     height: 612px;
     border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 20px;
+    margin-top: 35%;
 }
 
-header img{
-    border-radius: 42px;
+header .box img{
     width: 88px;
     height: 88px;
-    margin-bottom: 20px;
+    border-radius: 42px;
+    margin: 30px 0 0 37%;
 }
 
-header .name-location{
+header .box .name-location{
+    width: 100px;
+    height: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
-header .name-location h3, 
-header .name-location p {
+header .box .name-location h3{
     color: white;
-    margin: 5px 0;
 }
